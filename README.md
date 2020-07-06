@@ -24,3 +24,8 @@ Now that our datas are ready, we will pass them to the training to see hoe it pe
 
 we build and train a small CPC model using the repository CPC_audio, we first loads a context and an encoder newtorks, create a CPCmodel class
  
+### Fine tuning
+To fine tune the model, we first build a CharacterClassifier that will take as input a batch of sequences of CPC features and output a score vector for each phoneme, then we evaluate the Character Error Rate (CER), we Evaluate the PER on the validation dataset
+
+### Characters recognition without pre-training
+We estimate the impact of the pre-training by estimating the CER of a model trained from scratch on the labelled dataset.
