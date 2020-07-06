@@ -17,5 +17,5 @@ Now that our datas are ready, we will pass them to the training to see hoe it pe
 
 ### Build the model
 
-
+we build and train a small CPC model using the repository CPC_audio, we first loads a context and an encoder newtorks, create a CPCmodel class
  
