@@ -14,4 +14,8 @@ We first start by calculating the total number of hour by using a script which b
 Secondly, we organize our data by spliting the records folder into train, val and test sets.we then make a char file that will concatenate the audio name with the coding sentence and, a charset file that will contain all the characteres we used in our sentences.
 
 Now that our datas are ready, we will pass them to the training to see hoe it performs.
+
+### Build the model
+
+
  
